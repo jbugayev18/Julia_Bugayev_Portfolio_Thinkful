@@ -1,6 +1,41 @@
 header {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+}
+
+.head {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.item1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#menu {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-left: 50px;
+}
+
+#menu li a {
+  margin: 3px;
+}
+
+#menu li {
+  text-align: center;
+  text-decoration: none;
+}
+/* header {
+  display: flex;
+  justify-content: center;
   background-color: #6a5acd;
   margin-bottom: 40px;
 }
@@ -17,9 +52,9 @@ header h2 {
   text-align: center;
   margin: 0;
   padding-top: 20px;
-}
+} */
 
-header nav ul {
+/* header nav ul {
   display: flex;
   padding-left: 0;
   list-style: none;
@@ -28,14 +63,42 @@ header nav ul {
 header nav ul li a {
   color: #fffafa;
   text-decoration: none;
-  margin: 0 20px 0 0;
+  /* margin: 0 20px 0 0; */
+/* } */
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  margin-right: 12px;
+}
+
+li {
+  display: flex;
+  justify-content: center;
 }
 
 .bio-container {
   display: flex;
   width: 100%;
   justify-content: center;
-  flex-direction: row;
+  flex-direction: column;
   margin-left: auto;
 }
 
@@ -49,17 +112,17 @@ header nav ul li a {
   margin: 10px;
 }
 
-.item-dounle {
+.item-double {
   flex: 2;
-  margain: 10px;
+  margin: 10px;
 }
 
-.group2,
+/* .group2,
 .group3,
 .group5 {
   text-align: center;
   flex-direction: column;
-}
+} */
 
 /* -- Not working hmmm -- */
 
@@ -68,27 +131,36 @@ section {
   justify-content: center;
 }
 
-.group4 {
+/* .group4 {
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: space-evenly;
+} */
+
+.item {
+  display: flex;
+  flex-direction: column;
 }
 
-.group5 nav ul {
+p {
+  text-align: center;
+}
+
+/* .group5 nav ul {
   text-align: center;
   text-decoration: none;
   list-style: none;
-}
+} */
 
 /* -- Desktop -- */
 
-@media all and (min-width: 800px) {
-  main {
+/* @media all and (min-width: 800px) { */
+/* main {
     padding: 0 10%;
   }
 }
 
 .group4 {
   flex-direction: row;
-}
+} */
